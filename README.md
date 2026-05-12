@@ -1,4 +1,4 @@
-# DAFT-BloodTestReport-Interpretation
+# healthcare-llm-inference-api
 ## Domain-Adaptive Fine-Tuning of Lightweight Large Language Models for Personalized Blood Test Report Interpretation
 DAFT is a lightweight AI system that converts complex blood test reports into patient-friendly interpretations using a fine-tuned TinyLLaMA (1.1B) model with LoRA adaptation. The hybrid architecture combines deterministic laboratory value parsing with controlled natural language generation, achieving 97.9% accuracy with only 2.1% hallucination rate significantly outperforming medical baselines like BioBERT (9.4%), ClinicalBERT (11.8%), and BioGPT (7.1%). Deployed as a full-stack web application (React + FastAPI) with 2.3s inference time, DAFT demonstrates that task-specific architectural design and domain adaptation can deliver production-ready medical AI without enterprise-scale infrastructure or privacy compromises.
 
